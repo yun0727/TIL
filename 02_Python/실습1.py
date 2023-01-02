@@ -50,4 +50,3 @@ d=c+int(input("네 번째 숫자를 입력해주세요"))
 print(d)
 e=d+int(input("다섯 번째 숫자를 입력해주세요"))
 print(e)
-
