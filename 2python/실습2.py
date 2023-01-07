@@ -1,5 +1,6 @@
 #230103
-#1 정수를 입력받고 0보다 크면 True 아니면 False
+#1 정수를 입력받고 
+# 0보다 크면 True 아니면 False
 A = int(input("정수를 입력하세요"))
 if A>0:
     print(True)
@@ -7,7 +8,7 @@ else:
     print(False)
 
 #2 정수 두개를 입력 받고 크기가 더 큰 정수를 출력, 
-# 두 정수가 같으면 False
+#두 정수가 같으면 False
 A=int(input("첫 번째 정수를 입력하세요"))
 B=int(input("두 번째 정수를 입력하세요"))
 if A>B:
@@ -30,8 +31,11 @@ else:
 #0보다 크고, 짝수라면 True
 #아니면 False
 A=int(input("정수를 입력하세요"))
-if (A>0 and A%2==0):
-    print(True)
+if A>0:
+    if A % 2 ==0:
+        print(True)
+    else:
+        print(False)
 else:
     print(False)
 
